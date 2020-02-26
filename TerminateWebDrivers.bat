@@ -27,5 +27,6 @@ IF %COUNTER% EQU 0 (
 ECHO.
 ECHO.
 
-ECHO Press enter to exit
-SET /p input=
+REM ECHO Press enter to exit
+REM SET /p input=
+PING localhost -n 2 >NUL
